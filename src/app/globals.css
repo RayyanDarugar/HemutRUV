@@ -1,26 +1,81 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
+  /* Hemut Brand Palette */
+  --color-brand-yellow: #FFD33B;
+  --color-brand-dark: #121212;
+  --color-brand-slate: #24282E;
+  --color-brand-50: #FFF9E6;
+  /* Soft yellow for faint backgrounds */
+  --color-brand-100: #FFF0B3;
+  /* Light yellow */
+  --color-brand-500: #FFD33B;
+  /* Core Brand Yellow */
+  --color-brand-600: #E6B800;
+  /* Darker yellow for active states */
+  --color-brand-900: #24282E;
+  /* Brand Slate */
+
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+
+  --font-sans: var(--font-body);
+  --font-heading: var(--font-heading);
+}
+
+:root {
+  --background: #121212;
+  /* Brand Dark Default */
+  --foreground: #ffffff;
+  /* White text Default */
+  --surface: #24282E;
+  /* Brand Slate */
+  --border: #333A44;
+  /* Slightly lighter border */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #121212;
+    /* Brand Dark */
+    --foreground: #ffffff;
+    --surface: #24282E;
+    /* Brand Slate */
+    --border: #333A44;
+    /* Slightly lighter border */
   }
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Base custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cbd5e1;
 }

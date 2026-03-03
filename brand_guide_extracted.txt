@@ -1,0 +1,841 @@
+TOTAL PAGES: 27
+
+--- PAGE 1 ---
+Hemut.com 2025
+Hemut’s 2025 - 2026 Brand Book outlines the company’s visual identity, 
+messaging strategy, various applications, and marketing governance as 
+we chase our Series A
+Brand Book
+v1.0 - Nov 2025
+
+--- PAGE 2 ---
+INTRODUCTION
+Part 0
+02
+Hemut
+Contributors
+Version History
+V1.0 - Nov  14, 2025 - Initial Brand Book Release  
+Alex Kruchten - Chief Growth Officer
+With an international business education and elite consulting 
+background, Alex sets the vision for Hemut’s public presence 
+and oversees execution of it’s sales and marketing strategy 
+Aidan Tack - Head of Marketing
+With a passion that began in middle school and that most recently
+has included one of the world’s top film schools, Tack brings a level
+of creative polish that is unseen across the trucking industry    
+Jingzhi (May) Hu - Designer
+Hard working, multilingual, and with a Bachelors in Design and
+Media Art from UCLA, May has developed a versatile and stunning
+skillset within the world of graphic design
+Queena Ji
+Marketing
+Abhinav Volety
+Marketing
+Jaycee petrone
+Marketing
+Maria Tran
+Marketing
+Shehzad Razzaq - Designer
+With over three years of experience in graphic and web design, 
+Shehzad has shown time and time again that he’s immensely 
+talented at bringing brands to life
+
+--- PAGE 3 ---
+Table of contents
+Brand Core
+Mission / Vision 
+Tagline / Brand Promise 
+Brand Personality & Values 
+Elevator Pitch / Positioning 
+Our Audiences
+05
+06
+07
+08
+09
+10
+01
+Visual Identity 
+Logo Introduction 
+Color Variation 
+Logo System
+Color pallet
+Typography 
+Iconography 
+Imagery
+11
+12
+13
+14
+15
+16
+17
+18-19
+02
+Messaging
+Purpose 
+Brandscript 
+Soundbites Examples
+20
+21
+22-25
+26
+03
+01
+04
+00
+Introduction
+Executive Summary
+03
+Hemut
+INTRODUCTION
+Part 0
+NOTE: Section 4 and 5 are currently under construction and will be released in V2.
+Applications
+Website & UI 
+Social Medias 
+Presentations / Decks 
+Printed Materials 
+Merchandise
+26
+27
+28
+29
+30
+31
+04
+Governance
+Concluding Summary 
+Asset Locations 
+Approval Process
+32
+33
+34
+35
+05
+
+--- PAGE 4 ---
+Executive Summary
+“This Brand Book is Hemut’s single source of truth 
+for voice, messaging, and visual identity. It exists 
+so every team (marketing, sales, product, design, 
+partners, and more) speaks and looks like one 
+company and that every customer interaction 
+supports our promise: Take Back Your Margins. 
+For all on those teams, consider this your bible.
+The book is organized into five practical sections. 
+Brand Core defines our mission, promise, values, 
+and the hero we serve. Visual Identity contains 
+our logo system, color palette, typography, 
+iconography, and image guidance you must use 
+to stay consistent. Messaging is the operational 
+playbook for sales and marketing: our StoryBrand 
+Brandscript and a soundbite bank for hero lines, 
+CTAs, email subjects, and sales openers. 
+Applications shows concrete templates and 
+rules for website, product UI, pitch decks, social, 
+print materials, and merchandise. Governance 
+explains where files live, the approval flow, 
+versioning conventions, and who to contact for 
+exceptions. Combined, these five sections equip 
+you with everything you need to make compelling 
+content that fits Hemut’s brand.
+How should you use the Brand Book? Treat it like 
+the rulebook for a board game. Every act you take 
+as part of playing the game (making content for 
+Hemut) must fall in line with the rules set by the 
+book. The best players understand the rules and 
+then get creative within them to develop unique 
+strategies and ideas. That should be you. 
+Understand the rules and follow them, but not to 
+the point of rigidity. Be creative and unique in 
+what you ultimately create.
+This Brand Book is a living tool, not a theory. Copy 
+and paste the soundbites, apply the color palette 
+and assets, and use the templates so work looks 
+and reads like Hemut everywhere. If you’re unsure 
+where to start, what to use, or if you need help, 
+contact the Head of Marketing, Aidan Tack, for a 
+quick review. Use these rules to make Hemut 
+unmistakable: consistent, credible, and 
+relentlessly focused on helping customers 
+keep more profit on every mile.”
+This Brand Book exists to serve as Hemut’s single source of truth for voice, messaging, 
+and visuals. Use it to make every customer touchpoint unmistakably Hemut.
+04
+Hemut
+INTRODUCTION
+Part 0
+
+--- PAGE 5 ---
+Part 1
+Brand Core
+
+--- PAGE 6 ---
+Our Mission & Vision Statements
+Our mission statement outlines our purpose in the present day. Everything we do, in one way 
+or another, serves this goal. Our vision statement outlines the future we are building towards. 
+All of our work must embody our current mission while propelling us towards our vision.
+Our Mission
+Our Vision
+Our day to day mission is to empower 
+trucking companies to keep the profit 
+that they deserve.
+Our long term vision is to transform the logistics 
+industry from a technology laggard into a sector 
+that leads the world in practical innovation.
+06
+Hemut
+Brand Core
+Part 1
+
+--- PAGE 7 ---
+Take Back Your 
+Margins
+At Hemut,
+empower 
+truckers to earn profit on every mile
+improving their margins.
+ we help the owners of trucking 
+companies save and expand their businesses. 
+We do this by creating solutions, whether they 
+be software or fuel cards, that 
+ that they 
+drive. We put our customer’s success and 
+satisfaction above all else and do not stop 
+working until we deliver on our promise of 
+07
+Hemut
+Brand Core
+Part 1
+Expanded Brand promise
+Brand promise
+
+--- PAGE 8 ---
+Brand Personality Traits
+01
+04
+02
+05
+03
+Confident
+Hungry
+Plainspoken
+Human
+Innovative
+Confidence is our baseline. 
+We know what we’re building 
+and why it matters. We speak 
+directly, lead with clarity, and 
+trust our instincts. As a young 
+team it is crucial that we are 
+self assured in the eyes of our 
+clients and the public.
+As a young team, hunger is 
+our edge. It’s what keeps us 
+inventive and invested. We 
+sound like people who are in 
+love with the climb up: never 
+complacent, always building. 
+Every word should carry that 
+spark of forward motion and 
+drive to be the best.
+Our language is clean, simple, 
+and human. When someone 
+reads our words, they 
+shouldn’t have to pause to 
+interpret, they should just nod 
+and keep going. We 
+understand our audience 
+and speak in words they 
+understand.
+We never forget that behind 
+every click, message, or 
+decision is a person. Our 
+voice should reflect that. We 
+connect through honesty, 
+humor, and heart. That’s what 
+makes us memorable: we 
+sound like someone worth 
+knowing.
+We build what doesn’t exist 
+yet. Innovation is how we 
+think, write, and create. We 
+turn insight into action and 
+imagination into structure. 
+Every message should reflect 
+the sense that we’re already 
+building the next version of 
+what’s possible.
+Take 
+Back 
+Your 
+Margins
+Outlined below are the characteristics that we embody at Hemut. If someone were to 
+describe Hemut’s personality as if it were a person, they would use these words. It is our job 
+to ensure these traits come across in every interaction we have and message we project.
+08
+Hemut
+Brand Core
+Part 1
+
+--- PAGE 9 ---
+Positioning
+Elevator Pitch
+Freight Tech is a crowded space filled with all kinds of 
+players. Luckily, most are mediocre. Standing out will 
+not be hard, but it will require intention.  
+At every touchpoint - from our social media to UI to 
+sales pitches - we must embody the brand outlined 
+in this book. Our visuals should match. Our 
+messaging should be exact. And above all else, our 
+defined personality must shine through.
+Our image is already polished and unique. Consistency in application is what will wedge our 
+brand into the memories of our customers and the public. Stay true to this book and execute 
+on the principles we’ve outlined.
+As a part of Hemut, you’ll often be asked, “What 
+does Hemut do?” Outlined below are several 
+examples you can say to help Hemut make a 
+great first impression.  
+Attention Grabbing One Liner: 
+”We help the owners of trucking companies 
+save their businesses.”
+Expanded Version: 
+”We help the owners of trucking companies save 
+their businesses by custom building them software
+systems that revolutionize the way they work. 
+With our software, trucking companies can go
+from facing bankruptcy to doubling or tripling
+their total profit.”
+09
+Hemut
+Brand Core
+Part 1
+
+--- PAGE 10 ---
+10
+Hemut
+Brand Core
+Part 1
+Our Audiences
+Mid Market Mikey
+Mid Market Mikey represents the ideal customer profile for Hemut’s 
+software solutions. Mid Market Mikey is the owner and the CEO or 
+COO of his own trucking company. His fleet ranges anywhere from 
+200 to 2000 trucks. He’s down to earth, practical, gritty, a grinder, 
+and intensely focused on making his family business as successful 
+as possible. Often times, he even still has his CDL.
+Owner Operator Oliver
+Owner Operator Oliver represents the ideal customer profile for 
+Hemut Diesel, our own fuel card service. He is the owner of his own 
+truck or small fleet, ranging anywhere from 1 to 25 trucks. He’s a 
+hustler, extremely blue collar, and no-nonsense. He’s naturally 
+skeptical and conservative, but is highly motivated by the prospect of 
+making more money off of his truck(s).
+General Public
+Although Hemut occupies a niche industry, we aim to build a 
+recognizable public brand to attract investors, talent, and business 
+partnerships. As a result, we’ll be marketing heavily on social media 
+and to the general public in order to gain virality and put our story 
+out into the world.
+
+--- PAGE 11 ---
+Part 2
+Visual 
+Identity
+
+--- PAGE 12 ---
+12
+Hemut
+Visual Identity
+Part 2
+Our Logo
+
+--- PAGE 13 ---
+13
+Hemut
+Visual Identity
+Part 2
+The logo can only be used in these variations.
+Logo Variations
+
+--- PAGE 14 ---
+Logo Construction
+The logo is built using the golden ratio grid for perfect balance and harmony. Each shape 
+aligns with the golden spiral, creating a naturally appealing and timeless design.
+18x
+10x
+7x
+8x
+33
+o
+Logo Grid System
+The structure of a logo  is the strategic arrangement of its elements to ensure it  
+communicates the brand  effectively.
+14
+Hemut
+Visual Identity
+Part 2
+Logo System
+The logo making process describes how the logo will perform in long run.
+
+--- PAGE 15 ---
+15
+Hemut
+Visual Identity
+Part 2
+Color Palette
+The brand colors represent boldness, minimalism, and strong leadership.
+Hex: #FFD33B
+HSB: 216 21 18
+RGB: 36 40 46
+CMYK: 77 68 58 
+65
+Hex: #24282E
+HSB: 45 76 100
+RGB: 255 211 59
+CMYK: 0 16 87 0
+Hex: #FFFFFF
+HSB: 45 0 100
+RGB: 255 255 255
+CMYK: 0 0 0 0
+Hex: #121212
+HSB: 45 0 7
+RGB: 18 18 18
+CMYK: 73 67 66 82
+
+--- PAGE 16 ---
+Tobias
+Headings
+Oldschool
+Grotesk
+paragraph
+ABCDEFGHIJKLMNOpQRSTUVvxyz
+ABCDEFGHIJKLMNOpQRSTUVvxyz
+1234567890./*:”])?
+ABCDEFGHIJKLMNOpQRSTUVvxyz
+ABCDEFGHIJKLMNOpQRSTUVvxyz
+1234567890./*:”])?
+16
+Hemut
+Visual Identity
+Part 2
+Typography
+
+--- PAGE 17 ---
+Showcases.
+Settings
+Graduation 
+Down
+Save
+Settings 2
+Download 
+Notification On
+Notes
+Fingerprint
+Warning 
+Mute
+Megaphone
+Download
+Call 
+Arrow Down
+Undo
+Expand
+Controls 
+Unlock
+Lightning
+Document
+Gift
+Refresh
+Bank
+Mic
+Folder
+Upload
+Delete
+Battery 
+Like 
+Rocket
+Globe
+Factory
+Link
+Movie
+Message
+VISUAL IDENTITY
+Part 2
+Our Icons come from a library of icon collections. All the icons in the library 
+can be utilized as part of Hemut’s brand.
+Click Here to access the library
+17
+Hemut
+Iconography
+Art
+File
+Team
+Chat
+
+--- PAGE 18 ---
+VISUAL IDENTITY
+Part 2
+18
+Hemut
+Imagery
+Seen below is a sample of our imagery style
+
+--- PAGE 19 ---
+VISUAL IDENTITY
+Part 2
+19
+Hemut
+
+--- PAGE 20 ---
+Messaging
+Part 3
+
+--- PAGE 21 ---
+Hemut’s messaging strategy exists to make that possible. It 
+gives our entire team, from sales to marketing to 
+partnerships, a shared language for explaining who we are, 
+what we do, and why it matters to the people we serve.
+
+This messaging strategy is built on the 7-Part StoryBrand 
+framework, a proven system for turning a company’s story 
+into a clear and repeatable narrative. It helps us move from 
+talking about features to telling a story our customers 
+instantly recognize themselves in.
+
+A story that positions our customers as the hero, not us.
+
+Consistency builds trust. When every team member speaks 
+the same language and tells the same story, we create clarity 
+in the market and confidence with our customers. 
+
+Therefore, this section of the brand book exists to:
+Align all Hemut communication under one clear narrative.
+Make our story repeatable across every channel.
+Equip anyone (writer, designer, or salesperson) to speak with the 
+same confident voice.
+
+Think of our messaging strategy as your playbook for 
+storytelling:
+   • If you’re writing website copy, use it to frame headlines and calls 
+to action.
+   • If you’re creating sales material, use it to build customer-centered 
+narratives.
+   • If you’re leading a conversation, use it to talk about Hemut in a 
+way that resonates and converts.
+
+When everyone at Hemut uses the same language, we 
+become louder, clearer, and more believable; and our 
+customers know exactly what we stand for. 
+
+TLDR:  This strategy ensures that every piece of communication, from a 
+homepage banner to a handshake pitch, tells the same story.
+Every company tells a story, but only a few tell it clearly 
+enough for everyone to repeat it the same way. 
+21
+Hemut
+Messaging
+Part 3
+A Character...
+...and calls them to action
+...and achieve success!
+...who gives them a plan
+...that helps them avoid failure
+...has a problem
+Villian
+External
+Internal
+philosophical
+process plan
+Agreement plan
+Direct
+Indirect
+...and meets a guide
+Story Brand
+The Transformation
+Purpose and Usage
+
+--- PAGE 22 ---
+Brand Story
+To properly communicate, we have to understand our target audience. That 
+audience can be personified as Mid Market Mkey. Mid Market Mikey is the 
+CEO or COO of a large / mid sized trucking company. They typically built 
+their own business from the ground up, are gritty, practical, and care above 
+all else about their bottom line. Our goal is to turn Mid Market Mikey into “A 
+fleet leader who earns more profit on every mile.” 
+Mid Market Mikey: The CEO/COO of a middle market carrier 
+22
+Hemut
+Messaging
+Part 3
+01
+02
+The Hero in Hemut’s Story
+The Problem the Hero Faces 
+This is Hemut’s tag line and the overarching theme of the story we’re telling the market. It is a 
+short, repreatable, and memorable banner that everything ties back to. When a customer 
+thinks “Hemut” they should immediately think “Take Back Your Margins”. 
+Take Back Your Margins 
+The Margin Eater
+Villain 
+External
+Like all customers (or heros in a story), Mid 
+Market Mikey has a problem. His company’s 
+margins are being eaten up by inefficencies 
+across his entire organization. These 
+inefficences are endless, so to direct our 
+hero’s frustration, we bundle up these 
+countless inefficencies and personify them 
+as a villain, The Margin Eater. We want to 
+make Mid Market Mikey aware of this villain, 
+encourage him to despise it, and motivate 
+him to become obsessed with stopping it.
+When we experience problems we 
+experience them on three levels: externally, 
+internally, and philosophically. By 
+acknowleding the problem Mid Market Mikey 
+faces on all three levels, we show empathy 
+and deepen his desire to elimate the 
+problem. Externally, Mid Market Mikey’s 
+problem is fairly straightforward: his margins 
+are shrinking due to a bad freight market and 
+tons of inefficencies in his company. This 
+places his compay at threat of bankruptcy.
+Extern
+al 
+Carrier’s margins are shrinking due 
+to external & internal pressures
+
+--- PAGE 23 ---
+Running a fleet shouldn’t feel like running into a wall. We’ve felt this pain running our own fleet, 
+and so, we built the solution.
+
+What customers are looking for in brands, is a guide that can help them solve their problems. 
+Therefore, we need to always position Hemut in our customer’s eyes as the all-knowing guide that 
+can solve their problems. We are the Yoda to their Luke Skywalker or the Dumbledoor to their Harry 
+Potter. Furthermore, to establish ourselves as a guide that can be trusted, we must showcase 
+empathy and competency. We showcase empathy by stating our customer’s struggle and 
+acknowledging we understand it. We showcase competency through proof such as customer 
+testimonials, statistics, or media coverage.
+
+23
+Hemut
+Messaging
+Part 3
+03
+The Hero’s Guide  
+Carrier’s margins are shrinking due 
+to external & internal pressures 
+Internal
+When someone faces an external problem, it 
+creates an internal conflict, which is what 
+drives the desire for change. In the case of 
+Mid Market Mikey, his external problem of 
+shrnking margins and the threat of 
+bankruptcy is interally causing him to feel 
+overwhelmed and frustrated. After all, Mid 
+Market Mikey is busting his ass to keep his 
+company alive, and yet his margins are 
+getting slimmer and slimmer. Mid Market 
+Mkey’s desire to get rid of this internal 
+discomfort, namely the feeling of being 
+overhwelmed and frustrated, is what drives 
+him to seek change. And hence, it is what we 
+need to position ourselves as the solution to.
+These leaders have put in the miles. 
+The hard word of building a fleet 
+deserves to be rewarded. 
+Philosophical
+What makes a problem truly infuriating is 
+when it not only causes external and internal 
+conflict- but it is also ‘just plain wrong’. When 
+something goes against our moral compass 
+of ‘right’ and ‘wrong’ it motivates us to act. 
+For example, if you see a little old lady get 
+robbed, you’d be infuriated and likely chase 
+down the robber because the act was 
+deeply wrong. We need to create this same 
+feeling for Mid Market Mikey by 
+acknowledging whats philosophcally wrong 
+about his problem. In this case, his problem 
+is breaking the fundamental American belief 
+that hard work deserves to be rewarded. 
+Mid Market Mikey has spent thousands of 
+hours building his company from the 
+ground up; he’s put in blood, sweat, and 
+tears. So, the fact that his business is 
+struggling, and his hard work might not pay 
+off, is deeply wrong.
+Brand Story
+
+--- PAGE 24 ---
+24
+Hemut
+Messaging
+Part 3
+04
+The Plan the Guide Gives the Hero  
+Once our customer trusts us as a guide, they need to be given a plan that clearly shows how they will overcome 
+their problem. This plan is crucial to giving the customer the confidence to take the first step and move forward 
+with working with Hemut. More specifically we need to give our customer two plans: a Process Plan and an 
+Agreement Plan. The Process Plan’s purpose is to clearly state, step-by-step, how Mid Market Mikey can do 
+business wth us. Process Plans should be displayed very publicly. The Agreement Plan’s purpose is to alleviate 
+Mid Market Mikey’s concerns about Hemut and build a deeper level of trust between us. It doesn’t need to be 
+public, but rather should be shown to encourage customers who are considering working with us.
+Speak directly with our founding team to 
+diagnose  your needs and learn more 
+about the help we can provide. 
+After you see the benefit of our solutions, 
+ we’ll work with you to implement our full 
+suite of solutions to cut inefficency 
+across  every division in your office. 
+We’ll jointly identify an issue in your 
+office that we can  help solve. We’ll build 
+a solution, and we’ll let you keep it. All at 
+no cost. 
+Process Plan: Hemut’s Take Back Program 
+Agreement Plan: Hemut’s Take Back Promise 
+Meet With Our Team
+Scale With Our Full Support
+Test Our Solutions
+Step 1
+Step 3
+Step 2
+ The contract you sign is the 
+price you pay, period. Any 
+future improvements, 
+updates, etc. are given to you 
+at no added cost.  We never 
+charge accessorial fees. 
+If after two months you’re not 
+happy with the progress we’ve 
+made, you can cancel your 
+contract with zero penalties.
+Guarantee 1
+Guarantee 3
+White Glove Service
+No ROI? 
+You don’t pay
+Simple, 
+Transparent Pricing
+We fully handle 
+integration, onboarding,  
+training, and support all 
+in your office, and at no 
+cost to you. 
+Guarantee 2
+Brand Story
+
+--- PAGE 25 ---
+Carriers with low margins don’t fail overnght; they fail 
+mile by mile. Every day without change is another day 
+the Margin Eater steals your profit. Hemut can help 
+you starve the Margin Eater. Eliminate the 
+inefficiency: schedule your discovery call today.
+
+Fear is great at motivating people to act. As a result, 
+we must make Mid Market Mikey aware and afraid of 
+the threat of his problem poses to his business. This 
+is best done by – First, making the customer aware 
+they are vulnerable to a threat – Second, telling the 
+customer that since they’re vulnerable, they should 
+take action – Third, letting our customer know of a 
+specific CTA that can protect them from vulnerability 
+– and Fourth, telling them to take that action. By 
+laying out the threat in this way, we motivate our 
+customer to act and move forward. 
+With Hemut, you take back your margins, 
+eliminate chaos, and build a larger fleet that 
+maximizes profitability on every mile. You 
+starve the Margin Eater, you gain  back control, 
+and you finally see your hard work rewarded 
+the way it should be.
+
+After we warn of failure, we must vividly show 
+Mid Market Mikey the prize. This section paints 
+the post-solution world Mid Market Mikey will 
+experience when the Margin Eater is defeated. 
+Its purpose is to make success concrete and 
+believable: what does the business look like, 
+how do leaders feel, and what metrics change 
+as a result of partnering with Hemut? 
+25
+Hemut
+Messaging
+Part 3
+05
+06
+07
+08
+The Guide’s Call to Action  
+Forewarning the 
+Threat of Failure   
+Clearly Painting 
+Success   
+Final Transformation
+Direct
+Indirect
+Book a Discovery Call 
+Download PDF – 5 Ways the Margin Eater 
+is Stealing Your Profit (and how to stop it) 
+Brand Story
+We transform the heads of America’s best fleets from margin-squeezed firefighters into strategic leaders 
+who earn more money on every mile.
+
+The final transformation describes who Mid Market Mikey can become with Hemut’s help. Its role is psychological 
+and practical; it turns abstract benefits into a believable new identity the customer wants to occupy. Rather than 
+listing features or outcomes, the transformation shows the identify shift, emotional payoff, and day-to-day 
+benefits they’ll gain. A clear transformation motivates action because people buy into a future version of 
+themselves: it showcases the image that Mid Market Mikey will try to inhabit and the reasons he’ll choose to 
+change. 
+The Call to Action is the point in our story where we as the guide hand Mid Market Mikey a clear, low-friction next 
+step. Its job is purely practical: remove uncertainty, lower the cost of trying us, and make the path forward to 
+doing business obvious. We split the Call-to-Action into two complementary types. The Direct CTA is for buyers 
+who are ready to engage now. It should be short, imperative, and outcome-oriented. The Transitional CTA is for 
+audiences who need education or proof before they’ll speak to sales. It’s meant to built trust, show our 
+competency, and keep the customer engaged.
+
+--- PAGE 26 ---
+26
+Hemut
+Messaging
+Part 3
+Take back your margins 
+Tagline
+Soundbites
+Hero
+We serve gritty, practical fleet leaders.
+Problem
+Starve the Margin Eater.
+Your profit is leaking – mile by mile.
+Inefficiency is exhausting – fees, deadhead miles, late 
+invoices, and more…
+Hard work deserves to be rewarded. 
+Guide
+We’ve run fleets ourselves. We built Hemut to stop the Margin 
+Eater.
+We get it: running a fleet shouldn’t feel like running into a wall.
+Trusted by top fleets. Backed by the best. 
+Call To Action
+Schedule a Discovery Call. 
+Download our PDF – 5 ways your profit is leaking mile by mile 
+(and how to stop it). 
+Plan
+Get started with Hemut’s Take Back Program.
+Be secured by Hemut’s Take Back Promise. 
+Failure
+88 ,000 fleets went bankrupt last year. Don’t be next. 
+You can’t outwork inefficiency, you  need to outsmart it. 
+Success
+Maximize profitability on every mile. 
+Transformation
+A fleet leader who earns more on every mile.
+
+--- PAGE 27 ---
+v1.0 - Nov 2025
+Hemut’s 2025 - 2026 Brand Book serves as the blueprint for the future of 
+its sales, marketing, and product design. Every aspect was thoughtfully 
+crafted to bring our clients a uniquely fresh feeling of inspiration when 
+working with our company.
+Thank you
