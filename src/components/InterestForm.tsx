@@ -47,127 +47,132 @@ export function InterestForm() {
     }
 
     return (
-        <Card className="max-w-4xl mx-auto w-full border-border shadow-md" id="invest">
-            <CardContent className="p-6 md:p-10">
-                <div className="mb-8">
-                    <h2 className="text-41 md:text-48 font-tobias font-700 text-white mb-2">Express Investment Interest</h2>
-                    <p className="text-white-smoke-1 leading-24 font-oldschool-grotesk font-300">Please provide your details below. Institutional-grade confidentiality rules apply.</p>
-                </div>
+        <section className="relative w-full py-20 bg-background" id="invest">
+            {/* Background elements to match brand style */}
+            <div className="absolute inset-0 z-0 bg-cover bg-center opacity-30 pointer-events-none" style={{ backgroundImage: "url('/home-bg-1.png')" }}></div>
 
-                <form action={formAction} className="space-y-8">
-                    {/* Identity Section */}
-                    <div className="space-y-4">
-                        <h3 className="text-19 font-tobias font-700 text-white border-b border-border pb-2">1. Identity</h3>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                            <Input name="fullName" placeholder="Full Name *" required error={state.errors?.fullName?.[0]} />
-                            <Input name="email" type="email" placeholder="Email Address *" required error={state.errors?.email?.[0]} />
-                            <Input name="phone" type="tel" placeholder="Phone Number" error={state.errors?.phone?.[0]} />
-                            <Input name="referrer" placeholder="Who introduced you?" error={state.errors?.referrer?.[0]} />
-                            <Input name="city" placeholder="City *" required error={state.errors?.city?.[0]} />
+            <Card className="relative z-10 max-w-4xl mx-auto w-full border-border shadow-md bg-surface">
+                <CardContent className="p-6 md:p-10">
+                    <div className="mb-8">
+                        <h2 className="text-41 md:text-48 font-tobias font-700 text-white mb-2">Express Investment Interest</h2>
+                        <p className="text-white-smoke-1 leading-24 font-oldschool-grotesk font-300">Please provide your details below. Institutional-grade confidentiality rules apply.</p>
+                    </div>
 
-                            <div className="w-full relative flex flex-col">
-                                <select name="country" required className="flex h-11 w-full rounded-md border border-border bg-surface px-3 py-2 text-sm shadow-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-pastel-orange appearance-none text-foreground">
-                                    <option value="" disabled selected>Country of Residence *</option>
+                    <form action={formAction} className="space-y-8">
+                        {/* Identity Section */}
+                        <div className="space-y-4">
+                            <h3 className="text-19 font-tobias font-700 text-white border-b border-border pb-2">1. Identity</h3>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <Input name="fullName" placeholder="Full Name *" required error={state.errors?.fullName?.[0]} />
+                                <Input name="email" type="email" placeholder="Email Address *" required error={state.errors?.email?.[0]} />
+                                <Input name="phone" type="tel" placeholder="Phone Number" error={state.errors?.phone?.[0]} />
+                                <Input name="referrer" placeholder="Who introduced you?" error={state.errors?.referrer?.[0]} />
+                                <Input name="city" placeholder="City *" required error={state.errors?.city?.[0]} />
+
+                                <div className="w-full relative flex flex-col">
+                                    <select name="country" required className="flex h-11 w-full rounded-md border border-border bg-surface px-3 py-2 text-sm shadow-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-pastel-orange appearance-none text-foreground">
+                                        <option value="" disabled selected>Country of Residence *</option>
+                                        <option value="US">United States</option>
+                                        <option value="UK">United Kingdom</option>
+                                        <option value="CA">Canada</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                    {state.errors?.country && <span className="text-xs text-red-500 mt-1">{state.errors.country[0]}</span>}
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Investment Intent */}
+                        <div className="space-y-4">
+                            <h3 className="text-19 font-tobias font-700 text-white border-b border-border pb-2">2. Investment Intent</h3>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div className="relative">
+                                    <span className="absolute left-3 top-3 text-slate-500">$</span>
+                                    <Input name="amount" type="number" placeholder="Proposed Amount (USD) *" className="pl-7" required min="1000" error={state.errors?.amount?.[0]} />
+                                </div>
+
+                                <div className="w-full relative flex flex-col">
+                                    <select name="capitalType" required className="flex h-11 w-full rounded-md border border-border bg-surface px-3 py-2 text-sm shadow-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-pastel-orange appearance-none text-foreground">
+                                        <option value="" disabled selected>Capital Type *</option>
+                                        <option value="Personal">Personal / Angel</option>
+                                        <option value="Fund/Family Office">Fund / Family Office</option>
+                                    </select>
+                                    {state.errors?.capitalType && <span className="text-xs text-red-500 mt-1">{state.errors.capitalType[0]}</span>}
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Background */}
+                        <div className="space-y-4">
+                            <h3 className="text-19 font-tobias font-700 text-white border-b border-border pb-2">3. Background</h3>
+                            <div className="space-y-4">
+                                <div className="w-full relative flex flex-col">
+                                    <textarea name="background" required placeholder="Short professional background (e.g. Current role, prior exits, thesis focus) *" className="flex min-h-[100px] w-full rounded-md border border-border bg-surface px-3 py-2 text-sm shadow-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-pastel-orange resize-none p-4 placeholder:text-slate-500 text-foreground"></textarea>
+                                    {state.errors?.background && <span className="text-xs text-red-500 mt-1">{state.errors.background[0]}</span>}
+                                </div>
+                                <div className="w-full relative flex flex-col">
+                                    <textarea name="howCanHelp" placeholder="How might you help Hemut? (Optional) - Networks, expertise, recruiting, etc." className="flex min-h-[100px] w-full rounded-md border border-border bg-surface px-3 py-2 text-sm shadow-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-pastel-orange resize-none p-4 placeholder:text-slate-500 text-foreground"></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Compliance */}
+                        <div className="space-y-4">
+                            <h3 className="text-19 font-tobias font-700 text-white border-b border-border pb-2">4. Compliance & Consent</h3>
+
+                            <div className="w-full md:w-1/2 relative flex flex-col mb-6">
+                                <select name="citizenship" required className="flex h-11 w-full rounded-md border border-border bg-surface px-3 py-2 text-sm shadow-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-pastel-orange appearance-none text-foreground">
+                                    <option value="" disabled selected>Country of Citizenship *</option>
                                     <option value="US">United States</option>
                                     <option value="UK">United Kingdom</option>
                                     <option value="CA">Canada</option>
                                     <option value="Other">Other</option>
                                 </select>
-                                {state.errors?.country && <span className="text-xs text-red-500 mt-1">{state.errors.country[0]}</span>}
-                            </div>
-                        </div>
-                    </div>
-
-                    {/* Investment Intent */}
-                    <div className="space-y-4">
-                        <h3 className="text-19 font-tobias font-700 text-white border-b border-border pb-2">2. Investment Intent</h3>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                            <div className="relative">
-                                <span className="absolute left-3 top-3 text-slate-500">$</span>
-                                <Input name="amount" type="number" placeholder="Proposed Amount (USD) *" className="pl-7" required min="1000" error={state.errors?.amount?.[0]} />
+                                {state.errors?.citizenship && <span className="text-xs text-red-500 mt-1">{state.errors.citizenship[0]}</span>}
                             </div>
 
-                            <div className="w-full relative flex flex-col">
-                                <select name="capitalType" required className="flex h-11 w-full rounded-md border border-border bg-surface px-3 py-2 text-sm shadow-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-pastel-orange appearance-none text-foreground">
-                                    <option value="" disabled selected>Capital Type *</option>
-                                    <option value="Personal">Personal / Angel</option>
-                                    <option value="Fund/Family Office">Fund / Family Office</option>
-                                </select>
-                                {state.errors?.capitalType && <span className="text-xs text-red-500 mt-1">{state.errors.capitalType[0]}</span>}
+                            <div className="space-y-4">
+                                <label className="flex items-start gap-3 cursor-pointer group">
+                                    <input type="checkbox" name="notRestrictedCountry" required className="mt-1 w-4 h-4 rounded border-gray-300 text-pastel-orange-1 focus:ring-brand-500" />
+                                    <span className="text-15 text-white-smoke font-oldschool-grotesk font-300 group-hover:text-foreground transition-colors">
+                                        I am not a citizen, resident, or entity of any US-designated country of concern (e.g., China, Iran, Syria, Russia, etc.). *
+                                    </span>
+                                </label>
+
+                                <label className="flex items-start gap-3 cursor-pointer group">
+                                    <input type="checkbox" name="isAccredited" className="mt-1 w-4 h-4 rounded border-gray-300 text-pastel-orange-1 focus:ring-brand-500" />
+                                    <span className="text-15 text-white-smoke font-oldschool-grotesk font-300 group-hover:text-foreground transition-colors">
+                                        I am an accredited investor under US Securities Law. (Optional, speeds up RUV allocation)
+                                    </span>
+                                </label>
+
+                                <label className="flex items-start gap-3 cursor-pointer group">
+                                    <input type="checkbox" name="consentToStore" required className="mt-1 w-4 h-4 rounded border-gray-300 text-pastel-orange-1 focus:ring-brand-500" />
+                                    <span className="text-15 text-white-smoke font-oldschool-grotesk font-300 group-hover:text-foreground transition-colors">
+                                        I consent to Hemut storing and using this information to contact me regarding this investment opportunity. *
+                                    </span>
+                                </label>
                             </div>
-                        </div>
-                    </div>
 
-                    {/* Background */}
-                    <div className="space-y-4">
-                        <h3 className="text-19 font-tobias font-700 text-white border-b border-border pb-2">3. Background</h3>
-                        <div className="space-y-4">
-                            <div className="w-full relative flex flex-col">
-                                <textarea name="background" required placeholder="Short professional background (e.g. Current role, prior exits, thesis focus) *" className="flex min-h-[100px] w-full rounded-md border border-border bg-surface px-3 py-2 text-sm shadow-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-pastel-orange resize-none p-4 placeholder:text-slate-500 text-foreground"></textarea>
-                                {state.errors?.background && <span className="text-xs text-red-500 mt-1">{state.errors.background[0]}</span>}
+                            {state.errors?.notRestrictedCountry && <span className="text-xs text-red-500 block">{state.errors.notRestrictedCountry[0]}</span>}
+                            {state.errors?.consentToStore && <span className="text-xs text-red-500 block">{state.errors.consentToStore[0]}</span>}
+                        </div>
+
+                        <div className="pt-6 border-t border-border flex items-center justify-between">
+                            <span className="text-xs text-slate-500">Fields marked with * are required.</span>
+                            <Button type="submit" size="lg" disabled={isPending} className="w-full md:w-auto px-8">
+                                {isPending ? "Submitting securely..." : "Submit Interest"}
+                            </Button>
+                        </div>
+
+                        {state.message && !state.success && (
+                            <div className="p-4 bg-red-50 text-red-600 border border-red-200 rounded-lg text-sm text-center">
+                                {state.message}
                             </div>
-                            <div className="w-full relative flex flex-col">
-                                <textarea name="howCanHelp" placeholder="How might you help Hemut? (Optional) - Networks, expertise, recruiting, etc." className="flex min-h-[100px] w-full rounded-md border border-border bg-surface px-3 py-2 text-sm shadow-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-pastel-orange resize-none p-4 placeholder:text-slate-500 text-foreground"></textarea>
-                            </div>
-                        </div>
-                    </div>
-
-                    {/* Compliance */}
-                    <div className="space-y-4">
-                        <h3 className="text-19 font-tobias font-700 text-white border-b border-border pb-2">4. Compliance & Consent</h3>
-
-                        <div className="w-full md:w-1/2 relative flex flex-col mb-6">
-                            <select name="citizenship" required className="flex h-11 w-full rounded-md border border-border bg-surface px-3 py-2 text-sm shadow-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-pastel-orange appearance-none text-foreground">
-                                <option value="" disabled selected>Country of Citizenship *</option>
-                                <option value="US">United States</option>
-                                <option value="UK">United Kingdom</option>
-                                <option value="CA">Canada</option>
-                                <option value="Other">Other</option>
-                            </select>
-                            {state.errors?.citizenship && <span className="text-xs text-red-500 mt-1">{state.errors.citizenship[0]}</span>}
-                        </div>
-
-                        <div className="space-y-4">
-                            <label className="flex items-start gap-3 cursor-pointer group">
-                                <input type="checkbox" name="notRestrictedCountry" required className="mt-1 w-4 h-4 rounded border-gray-300 text-pastel-orange-1 focus:ring-brand-500" />
-                                <span className="text-15 text-white-smoke font-oldschool-grotesk font-300 group-hover:text-foreground transition-colors">
-                                    I am not a citizen, resident, or entity of any US-designated country of concern (e.g., China, Iran, Syria, Russia, etc.). *
-                                </span>
-                            </label>
-
-                            <label className="flex items-start gap-3 cursor-pointer group">
-                                <input type="checkbox" name="isAccredited" className="mt-1 w-4 h-4 rounded border-gray-300 text-pastel-orange-1 focus:ring-brand-500" />
-                                <span className="text-15 text-white-smoke font-oldschool-grotesk font-300 group-hover:text-foreground transition-colors">
-                                    I am an accredited investor under US Securities Law. (Optional, speeds up RUV allocation)
-                                </span>
-                            </label>
-
-                            <label className="flex items-start gap-3 cursor-pointer group">
-                                <input type="checkbox" name="consentToStore" required className="mt-1 w-4 h-4 rounded border-gray-300 text-pastel-orange-1 focus:ring-brand-500" />
-                                <span className="text-15 text-white-smoke font-oldschool-grotesk font-300 group-hover:text-foreground transition-colors">
-                                    I consent to Hemut storing and using this information to contact me regarding this investment opportunity. *
-                                </span>
-                            </label>
-                        </div>
-
-                        {state.errors?.notRestrictedCountry && <span className="text-xs text-red-500 block">{state.errors.notRestrictedCountry[0]}</span>}
-                        {state.errors?.consentToStore && <span className="text-xs text-red-500 block">{state.errors.consentToStore[0]}</span>}
-                    </div>
-
-                    <div className="pt-6 border-t border-border flex items-center justify-between">
-                        <span className="text-xs text-slate-500">Fields marked with * are required.</span>
-                        <Button type="submit" size="lg" disabled={isPending} className="w-full md:w-auto px-8">
-                            {isPending ? "Submitting securely..." : "Submit Interest"}
-                        </Button>
-                    </div>
-
-                    {state.message && !state.success && (
-                        <div className="p-4 bg-red-50 text-red-600 border border-red-200 rounded-lg text-sm text-center">
-                            {state.message}
-                        </div>
-                    )}
-                </form>
-            </CardContent>
-        </Card>
+                        )}
+                    </form>
+                </CardContent>
+            </Card>
+        </section>
     );
 }

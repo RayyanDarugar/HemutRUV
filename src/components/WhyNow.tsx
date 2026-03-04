@@ -3,8 +3,9 @@ import { CheckCircle2 } from "lucide-react";
 
 export function WhyNow() {
     return (
-        <section className="w-full py-20 bg-background border-y border-border" id="why-now">
-            <div className="max-w-4xl mx-auto px-4">
+        <section className="relative w-full py-20 bg-background" id="why-now">
+            <div className="absolute inset-0 z-0 bg-cover bg-center opacity-30 pointer-events-none" style={{ backgroundImage: "url('/home-bg-1.png')" }}></div>
+            <div className="relative z-10 max-w-4xl mx-auto px-4">
                 <div className="text-center mb-16">
                     <h2 className="text-41 md:text-48 font-tobias font-700 tracking-tight mb-4 text-white">
                         Why This Round

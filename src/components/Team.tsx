@@ -19,8 +19,9 @@ export function Team() {
     ];
 
     return (
-        <section className="w-full py-20 bg-background" id="team">
-            <div className="max-w-6xl mx-auto px-4">
+        <section className="relative w-full py-20 bg-background" id="team">
+            <div className="absolute inset-0 z-0 bg-cover bg-center opacity-30 pointer-events-none" style={{ backgroundImage: "url('/home-bg-1.png')" }}></div>
+            <div className="relative z-10 max-w-6xl mx-auto px-4">
                 <div className="text-center mb-16">
                     <h2 className="text-41 md:text-48 font-tobias font-700 tracking-tight mb-4 text-white">
                         The Team
@@ -30,9 +31,9 @@ export function Team() {
                     </p>
                 </div>
 
-                <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+                <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto justify-items-center">
                     {teamMembers.map((member, index) => (
-                        <div key={index} className="flex gap-6 group">
+                        <div key={index} className="flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left gap-6 group">
                             <div className="shrink-0">
                                 {member.imageUrl ? (
                                     <div className="w-24 h-24 rounded-full bg-surface border-2 border-pastel-orange flex items-center justify-center overflow-hidden relative">
