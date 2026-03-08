@@ -1,6 +1,8 @@
 "use server";
 
 import { z } from "zod";
+import { db } from "@/lib/db/client";
+import { investorInterest } from "@/lib/db/schema";
 
 const formSchema = z.object({
     fullName: z.string().min(2, "Name is required"),
@@ -33,6 +35,8 @@ export async function submitInterestForm(
     prevState: InterestFormState,
     formData: FormData
 ): Promise<InterestFormState> {
+    void prevState;
+
     const rawData = {
         fullName: formData.get("fullName"),
         email: formData.get("email"),
@@ -60,13 +64,32 @@ export async function submitInterestForm(
         };
     }
 
-    // TODO: Add actual database integration here (e.g., Supabase / PostgreSQL)
-    // TODO: Add email service integration (Resend / SendGrid) to notify invest@hemut.com
+    const normalizedData = {
+        fullName: parsed.data.fullName.trim(),
+        email: parsed.data.email.trim().toLowerCase(),
+        phone: parsed.data.phone?.trim() || null,
+        city: parsed.data.city.trim(),
+        country: parsed.data.country.trim(),
+        referrer: parsed.data.referrer?.trim() || null,
+        amountUsd: parsed.data.amount.toFixed(2),
+        capitalType: parsed.data.capitalType,
+        background: parsed.data.background.trim(),
+        howCanHelp: parsed.data.howCanHelp?.trim() || null,
+        citizenship: parsed.data.citizenship.trim(),
+        notRestrictedCountry: parsed.data.notRestrictedCountry,
+        isAccredited: parsed.data.isAccredited ?? null,
+        consentToStore: parsed.data.consentToStore,
+    };
 
-    console.log("New Investor Interest Submission:", parsed.data);
-
-    // Simulate network delay for realistic UX
-    await new Promise((resolve) => setTimeout(resolve, 1200));
+    try {
+        await db.insert(investorInterest).values(normalizedData);
+    } catch (error) {
+        console.error("Failed to store investor interest submission:", error);
+        return {
+            success: false,
+            message: "We could not submit your interest right now. Please try again shortly.",
+        };
+    }
 
     return {
         success: true,
