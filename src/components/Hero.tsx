@@ -31,7 +31,10 @@ export function Hero() {
         <section className="relative w-full py-20 md:py-32 flex flex-col items-center justify-center text-center px-4 bg-background overflow-hidden min-h-screen">
             {/* Video Background */}
             <div className="absolute inset-0 z-0 w-full h-full overflow-hidden">
-                <video ref={bgVideoRef} src="/Hero_Home_Page.mp4" autoPlay loop muted playsInline preload="auto" className="absolute inset-0 w-full h-full object-cover opacity-60"></video>
+                {/* Video: desktop only */}
+                <video ref={bgVideoRef} src="/Hero_Home_Page.mp4" autoPlay loop muted playsInline preload="auto" className="hidden md:block absolute inset-0 w-full h-full object-cover opacity-60"></video>
+                {/* Static fallback: mobile only */}
+                <img src="/home-bg-1.png" alt="" aria-hidden="true" className="block md:hidden absolute inset-0 w-full h-full object-cover opacity-60" />
                 <div className="absolute inset-0 bg-background/40"></div>
                 <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-transparent to-background/90"></div>
             </div>
