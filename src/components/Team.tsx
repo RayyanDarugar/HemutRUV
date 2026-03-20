@@ -14,7 +14,7 @@ export function Team() {
             role: "15+ Engineers",
             background: "Meta, Uber, Crowdstrike",
             bio: "Supported by a technical powerhouse team with backgrounds across Capital One and Cadence, guided by top-tier advisors from Optimizely, Confluent, and Fanatics.",
-            imageUrl: "/hemut-logo-v2.png"
+            imageUrl: "/hemut-square-logo.png"
         }
     ];
 
