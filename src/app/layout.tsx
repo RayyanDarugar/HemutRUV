@@ -21,6 +21,18 @@ export const metadata: Metadata = {
     index: false,
     follow: false,
   },
+  openGraph: {
+    title: "Invest in Hemut",
+    description: "Friends & Family Round - Hemut RUV",
+    images: [
+      {
+        url: "/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: "Hemut Logo",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
