@@ -6,15 +6,17 @@ import Link from "next/link";
 
 export function Hero() {
     const bgVideoRef = useRef<HTMLVideoElement>(null);
+    const founderVideoRef = useRef<HTMLVideoElement>(null);
 
     useEffect(() => {
-        const video = bgVideoRef.current;
-        if (video) {
-            // React doesn't reliably set the muted attribute on video elements,
-            // so we set it via the DOM property as a workaround for mobile autoplay.
-            video.muted = true;
-            video.play().catch(() => {});
-        }
+        [bgVideoRef.current, founderVideoRef.current].forEach((video) => {
+            if (video) {
+                // React doesn't reliably set the muted attribute on video elements,
+                // so we set it via the DOM property as a workaround for mobile autoplay.
+                video.muted = true;
+                video.play().catch(() => {});
+            }
+        });
     }, []);
 
     return (
@@ -60,11 +62,14 @@ export function Hero() {
             {/* Founder Video */}
             <div className="mt-16 relative z-10 w-full max-w-5xl mx-auto aspect-video rounded-xl overflow-hidden shadow-2xl border border-border">
                 <video
+                    ref={founderVideoRef}
                     className="w-full h-full object-cover"
                     poster="/founder-poster.jpg"
-                    controls
+                    autoPlay
+                    loop
+                    muted
                     playsInline
-                    preload="none"
+                    preload="auto"
                 >
                     <source src="/founder-video.mp4" type="video/mp4" />
                 </video>
