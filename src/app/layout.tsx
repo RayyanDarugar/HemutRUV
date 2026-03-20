@@ -15,6 +15,7 @@ const bodyFont = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://fnf.hemut.com'),
   title: "Invest in Hemut",
   description: "Friends & Family Round - Hemut RUV",
   robots: {
