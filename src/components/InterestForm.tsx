@@ -139,9 +139,9 @@ export function InterestForm() {
                             {state.errors?.consentToStore && <span className="text-xs text-red-500 block">{state.errors.consentToStore[0]}</span>}
                         </div>
 
-                        <div className="pt-6 flex items-center justify-between">
+                        <div className="pt-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
                             <span className="text-xs text-slate-500">Fields marked with * are required.</span>
-                            <Button type="submit" size="lg" disabled={isPending} className="w-full md:w-auto px-8">
+                            <Button type="submit" size="lg" disabled={isPending} className="w-full sm:w-auto px-8">
                                 {isPending ? "Submitting securely..." : "Submit Interest"}
                             </Button>
                         </div>
