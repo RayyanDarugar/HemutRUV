@@ -27,8 +27,8 @@ export function WhyNow() {
                                 <p className="text-21 font-700 text-white font-oldschool-grotesk">Up to $700k</p>
                             </div>
                             <div className="pt-4">
-                                <p className="text-15 text-dark-gray-1 mb-1 font-oldschool-grotesk">Valuation Cap Range</p>
-                                <p className="text-21 font-700 text-white font-oldschool-grotesk">$45M &ndash; $50M</p>
+                                <p className="text-15 text-dark-gray-1 mb-1 font-oldschool-grotesk">Val Cap</p>
+                                <p className="text-21 font-700 text-white font-oldschool-grotesk">$45M</p>
                             </div>
                         </CardContent>
                     </Card>
